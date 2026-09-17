@@ -5,7 +5,10 @@
         <div class="row about-row">
             <div class="col-md-5 col-sm-12 animate-box">
                 <div class="fh5co-heading" style="margin-bottom: 30px;">
-                    <span class="project-tag">Formación Continua</span>
+                    <span class="project-tag">
+                        <x-icons.academic style="width: 13px; height: 13px; display: inline-block; vertical-align: -1px; margin-right: 3px;" />
+                        Formación Continua
+                    </span>
                     <h2 style="font-size: 38px; margin-bottom: 20px;">Aprende con <em>AVE</em></h2>
                     <p style="font-size: 15px; color: #555; line-height: 1.8;">
                         Cursos pensados para potenciar tus habilidades técnicas y creativas en las herramientas más demandadas de la arquitectura actual.
@@ -15,6 +18,7 @@
                     </p>
                     <div style="margin-top: 30px;">
                         <a href="https://wa.me/525583531829?text=Hola,%20me%20interesa%20información%20sobre%20los%20cursos%20de%20AVE%20Arquitectura" target="_blank" class="btn btn-primary" style="padding: 12px 24px;">
+                            <x-icons.whatsapp style="width: 16px; height: 16px; display: inline-block; vertical-align: middle; margin-right: 6px;" />
                             Pedir Información de Cursos
                         </a>
                     </div>
@@ -39,6 +43,7 @@
                                                     </p>
                                                     <p style="margin-bottom: 0;">
                                                         <a href="https://wa.me/525583531829?text={{ urlencode($course->whatsapp_message ?? 'Hola, me interesa el curso de ' . $course->title) }}" target="_blank" class="btn btn-primary btn-outline" style="padding: 8px 20px; font-size: 13px;">
+                                                            <x-icons.whatsapp style="width: 14px; height: 14px; display: inline-block; vertical-align: middle; margin-right: 5px;" />
                                                             Más Detalles por WhatsApp
                                                         </a>
                                                     </p>

@@ -10,6 +10,7 @@
                 </p>
                 <p>
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSfKVxlVzCkMfsSoZgyFbXALwwvJ7yn66Zg725dxXvA6ApJKGQ/viewform?usp=sf_link" target="_blank" class="btn btn-primary" style="padding: 14px 34px; font-size: 15px; text-transform: uppercase; letter-spacing: 1px; font-weight: 600;">
+                        <x-icons.paper-plane style="width: 16px; height: 16px; display: inline-block; vertical-align: middle; margin-right: 8px;" />
                         Enviar Proyecto
                     </a>
                 </p>

@@ -18,6 +18,7 @@
                     <li><a href="#fh5co-contacto">Contacto</a></li>
                     <li>
                         <a href="https://docs.google.com/forms/d/e/1FAIpQLSfKVxlVzCkMfsSoZgyFbXALwwvJ7yn66Zg725dxXvA6ApJKGQ/viewform?usp=sf_link" target="_blank" class="btn-cta-nav">
+                            <x-icons.paper-plane style="width: 13px; height: 13px; display: inline-block; vertical-align: middle; margin-right: 5px;" />
                             Envíanos tu proyecto
                         </a>
                     </li>

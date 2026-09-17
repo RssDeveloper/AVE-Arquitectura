@@ -12,21 +12,27 @@
         <div class="row" style="display: flex; flex-wrap: wrap;">
             <div class="col-md-4 col-sm-6 animate-box" style="display: flex; margin-bottom: 30px;">
                 <div class="service-box">
-                    <i class="icon-camera"></i>
+                    <div style="display: flex; justify-content: center;">
+                        <x-icons.cube-3d style="width: 48px; height: 48px; color: #ea272d; margin-bottom: 20px;" />
+                    </div>
                     <h3>Renderizado 3D</h3>
                     <p>Imágenes fotorrealistas de alta resolución, vistas interiores, exteriores, recorridos 360° y postproducción de impacto para venta inmobiliaria o concursos.</p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6 animate-box" style="display: flex; margin-bottom: 30px;">
                 <div class="service-box">
-                    <i class="icon-layers"></i>
+                    <div style="display: flex; justify-content: center;">
+                        <x-icons.blueprint style="width: 48px; height: 48px; color: #ea272d; margin-bottom: 20px;" />
+                    </div>
                     <h3>Modelado &amp; Planos</h3>
                     <p>Levantamiento y dibujo técnico en AutoCAD y SketchUp. Planos arquitectónicos, ejecutivos, cortes, fachadas y detalles constructivos.</p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-12 animate-box" style="display: flex; margin-bottom: 30px;">
                 <div class="service-box">
-                    <i class="icon-graduation-cap"></i>
+                    <div style="display: flex; justify-content: center;">
+                        <x-icons.academic style="width: 48px; height: 48px; color: #ea272d; margin-bottom: 20px;" />
+                    </div>
                     <h3>Capacitación &amp; Cursos</h3>
                     <p>Talleres prácticos y cursos especializados en software de representación digital, optimización de flujos y modelado avanzado.</p>
                 </div>

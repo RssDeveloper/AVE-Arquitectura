@@ -32,24 +32,48 @@
             <div class="col-md-3 col-sm-6 col-md-push-1 fh5co-widget">
                 <h4 style="color: #fff; font-size: 20px; font-weight: 600; margin-bottom: 20px;">Contacto</h4>
                 <ul class="fh5co-footer-links" style="padding: 0; list-style: none;">
-                    <li style="margin-bottom: 12px; color: #bbb;"><i class="icon-location" style="margin-right: 8px; color: #ea272d;"></i> Ciudad de México, México</li>
-                    <li style="margin-bottom: 12px;"><a href="https://wa.me/525583531829" target="_blank" style="color: #bbb;"><i class="icon-phone" style="margin-right: 8px; color: #ea272d;"></i> +52 55 8353 1829</a></li>
-                    <li style="margin-bottom: 12px;"><a href="mailto:contacto@avearquitectura.com" style="color: #bbb;"><i class="icon-mail" style="margin-right: 8px; color: #ea272d;"></i> contacto@avearquitectura.com</a></li>
-                    <li style="margin-bottom: 12px;"><a href="https://www.avearquitectura.com" target="_blank" style="color: #bbb;"><i class="icon-globe" style="margin-right: 8px; color: #ea272d;"></i> avearquitectura.com</a></li>
+                    <li style="margin-bottom: 14px; color: #bbb; display: flex; align-items: center;">
+                        <x-icons.map-pin style="width: 18px; height: 18px; min-width: 18px; margin-right: 10px; color: #ea272d;" />
+                        <span>Ciudad de México, México</span>
+                    </li>
+                    <li style="margin-bottom: 14px; display: flex; align-items: center;">
+                        <x-icons.phone style="width: 18px; height: 18px; min-width: 18px; margin-right: 10px; color: #ea272d;" />
+                        <a href="https://wa.me/525583531829" target="_blank" style="color: #bbb;">+52 55 8353 1829</a>
+                    </li>
+                    <li style="margin-bottom: 14px; display: flex; align-items: center;">
+                        <x-icons.mail style="width: 18px; height: 18px; min-width: 18px; margin-right: 10px; color: #ea272d;" />
+                        <a href="mailto:contacto@avearquitectura.com" style="color: #bbb;">contacto@avearquitectura.com</a>
+                    </li>
+                    <li style="margin-bottom: 14px; display: flex; align-items: center;">
+                        <x-icons.globe style="width: 18px; height: 18px; min-width: 18px; margin-right: 10px; color: #ea272d;" />
+                        <a href="https://www.avearquitectura.com" target="_blank" style="color: #bbb;">avearquitectura.com</a>
+                    </li>
                 </ul>
             </div>
         </div>
 
         <div class="row copyright" style="border-top: 1px solid #2a2a2a; padding-top: 30px;">
             <div class="col-md-12 text-center">
-                <p style="margin-bottom: 10px; font-size: 13px; color: #777;">
+                <p style="margin-bottom: 15px; font-size: 13px; color: #777;">
                     &copy; {{ date('Y') }} AVE Arquitectura. Todos los derechos reservados.
                 </p>
                 <p>
-                    <ul class="fh5co-social-icons" style="margin: 0; padding: 0;">
-                        <li style="display: inline-block; margin: 0 8px;"><a href="https://www.instagram.com/ave_arquitectura" target="_blank" title="Instagram" style="color: #ea272d; font-size: 18px;"><i class="icon-instagram"></i></a></li>
-                        <li style="display: inline-block; margin: 0 8px;"><a href="https://www.facebook.com/ProyectoAVEarquitectura" target="_blank" title="Facebook" style="color: #ea272d; font-size: 18px;"><i class="icon-facebook2"></i></a></li>
-                        <li style="display: inline-block; margin: 0 8px;"><a href="https://wa.me/525583531829" target="_blank" title="WhatsApp" style="color: #ea272d; font-size: 18px;"><i class="icon-phone"></i></a></li>
+                    <ul class="fh5co-social-icons" style="margin: 0; padding: 0; display: flex; justify-content: center; gap: 15px; list-style: none;">
+                        <li>
+                            <a href="https://www.instagram.com/ave_arquitectura" target="_blank" title="Instagram" style="color: #ea272d; display: inline-flex; align-items: center; justify-content: center; width: 38px; height: 38px; background: rgba(255,255,255,0.06); border-radius: 50%; transition: all 0.3s ease;">
+                                <x-icons.instagram style="width: 18px; height: 18px;" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/ProyectoAVEarquitectura" target="_blank" title="Facebook" style="color: #ea272d; display: inline-flex; align-items: center; justify-content: center; width: 38px; height: 38px; background: rgba(255,255,255,0.06); border-radius: 50%; transition: all 0.3s ease;">
+                                <x-icons.facebook style="width: 18px; height: 18px;" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/525583531829" target="_blank" title="WhatsApp" style="color: #ea272d; display: inline-flex; align-items: center; justify-content: center; width: 38px; height: 38px; background: rgba(255,255,255,0.06); border-radius: 50%; transition: all 0.3s ease;">
+                                <x-icons.whatsapp style="width: 18px; height: 18px;" />
+                            </a>
+                        </li>
                     </ul>
                 </p>
             </div>
